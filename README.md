@@ -7,4 +7,11 @@ little bug left to cure despite of knowing the cause and weakness ue to time con
 The "Find Friends" list does not show profile picture . I actually made a root in database named "Images" while i thought it was "images" hence i designed the whole app accordingly. I found this out later so i corrected for all the other places but this particular could not be done. i think the reason behind this is taht it takes image via "Contacts" class which uses "images" i couldnot change this at the end moment cause the app would have crashed and it was not possible to check the use of class at every place.
 
 PROBLEMS FACED:
-i was stuck for long with the
+
+i was stuck for long with the image problem. The image did not show up and the biggest mistake i did was i did not check back then but in the end. So, when i googled about it i found out about various problems that the url could do. So, i thought it's just the arrow (reference) that's going in wrong direction else its good. so, i kept on debugging and googling. But there's a good thing i did, just to maintain uniformity i was switching accounts everytime to check when i was making changes in the code. and after a long time of hitting my head, i realised that the "images" root which has supposed to contain url of profile images was having differen urls: some did have that column despite i tried to change profile picture, while some had "com...." while some had "https:firebase....." and the name of the root itself wa "Images", note "Images" and not "images". Boom! i was sad and happy at the same time sad coz this "Images" was a big pain and happy coz finally i actually knew how to mend it .
+
+i faced a issue also while chatting; the sender could successfully send the message but the reciever did not recieve it. Since reciever and sender have same procedure the pain was due to some some visible/invisible pain . i tried a lot  of changes and after $ hours of working on it i came to the comclusion that everything was good with it. Then, the only other place that was included in this task was the mighty database. when i analysed it i realised the reciever messages went inside "Messages" folder which was inside the main "Messages" root which was supposed to take care of all the messages and the problem i had spent hours on got solved in minutes.
+
+Conclusion:
+All i realised with this was _- there is no better teacher than debugging -_ 
+I worked on things in a better way, analysed them more. Though they make you cry but in the end whwn it's done, the satisfaction is pious. hehe..Bye
