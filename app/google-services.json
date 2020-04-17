@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "886400908967",
+    "firebase_url": "https://hangout-ebee2.firebaseio.com",
+    "project_id": "hangout-ebee2",
+    "storage_bucket": "hangout-ebee2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886400908967:android:c820bebfe050822747a582",
+        "android_client_info": {
+          "package_name": "com.example.hangout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886400908967-179v44r9d77q1pddlvbij72hmglqji5m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hangout",
+            "certificate_hash": "8e1197c5081a908d9e0ae86876ec6f87359b45b3"
+          }
+        },
+        {
+          "client_id": "886400908967-2t9b5lanv8h80e5f9s3j8iql16rjs68c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbq4O6YF2PZvYXiCajzincPnqpZMsP0cM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886400908967-2t9b5lanv8h80e5f9s3j8iql16rjs68c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
