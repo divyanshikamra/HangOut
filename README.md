@@ -1,2 +1,10 @@
 # HangOut
-this
+This is my submission for devcom recruitment phase3 selesction. This is a chat app named "Hangout" where friends can hangout.
+This app requires internet access to operate, no offline capabilities have been added to it. I will just explain the basiclayout for you. The user needs to signup to this app to get started , you can signup via email or phone. I have not added email verification but phone authentication has been added. The mobile number you are accessing to create a account will be verfied via an otp valid for 60 secs. After logging in one can see four fragments: chats,groups,friends,requests. the first fragment is a list of your friends and by clicking on it you can send or recieve text/image/pdf/MS WORD docs. the pdf and MS word docs can be downloaded to see them. The groups fragment is basically a sort of broadcast where everyone can see/recieve messages irrespective of being in the group. The friend fragment shows you a list of your friends with green marks adjacent if they are online. The app also shows you the last seen of your friends. From the requests fragment one can see the recieved/sent requests and by clicking on it repond to it accordingly. 
+The dropdown menu which is visible allows you to create group, logout, edit your account settings(profile picture and status) and find fiends which is basically a list of all the users using the app when ones clicks on any user they can see their profile and send message request as well if they are interested to message them. Any of the existing friends can unfriend each other if they want.
+
+little bug left to cure despite of knowing the cause and weakness ue to time constraints:
+The "Find Friends" list does not show profile picture . I actually made a root in database named "Images" while i thought it was "images" hence i designed the whole app accordingly. I found this out later so i corrected for all the other places but this particular could not be done. i think the reason behind this is taht it takes image via "Contacts" class which uses "images" i couldnot change this at the end moment cause the app would have crashed and it was not possible to check the use of class at every place.
+
+PROBLEMS FACED:
+i was stuck for long with the
